@@ -1,0 +1,20 @@
+<form (ngSubmit)="onSubmit()">
+    <h2>Ajouter un élève</h2>
+        <table>
+            <tr>
+                <td><input type="text" [(ngModel)]="etudiant._nom" name="nom" placeholder="Nom"></td>
+                <td><input type="text" [(ngModel)]="etudiant._prenoms" name="prenom" placeholder="Prénom"></td>
+                <td><input type="text" [(ngModel)]="etudiant._rue" name="adresse" placeholder="Adresse"></td>
+            </tr><tr>
+                <td><input type="text" [(ngModel)]="etudiant._cp" name="cd" placeholder="Code Postale"></td>
+                <td><input type="text" [(ngModel)]="etudiant._ville" name="ville" placeholder="Ville"></td>
+                <td><input type="text" [(ngModel)]="etudiant._courriel" name="courriel" placeholder="Adresse Mail"></td>
+            </tr><tr>
+                <td><input type="text" [(ngModel)]="etudiant._genre" name="genre" placeholder="Genre"></td>
+                <td><input type="number" [(ngModel)]="etudiant._age" name="age" placeholder="Age"></td>
+                <td><input type="number" [(ngModel)]="etudiant._idCand" name="idCand" placeholder="ID de l'élève"></td>
+            </tr>
+            <tr><button type="submit">Ajouter</button></tr>
+        </table>
+</form>
+  

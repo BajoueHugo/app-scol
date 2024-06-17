@@ -1,0 +1,16 @@
+<section>
+    <img src="/assets/formation.webp">
+    <h2>Liste des Spécialités</h2>
+    <table>
+        <tr>
+            <th>Spécialité:</th>
+            <th>ID:</th>
+        </tr>
+        <ng-container *ngFor="let specialite of listSpecialite">
+            <tr>
+                <td>{{specialite._libelle}}</td>
+                <td>{{specialite._idSpec}}</td>
+            </tr>
+        </ng-container>
+    </table>
+</section>

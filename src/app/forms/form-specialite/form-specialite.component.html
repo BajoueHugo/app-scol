@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit()">
+    <h2>Ajouter une Spécialité</h2>
+        <table>
+            <tr>
+                <td><input type="text" [(ngModel)]="specialite._libelle" name="specialite" placeholder="Spécialité"></td>
+                <td><input type="text" [(ngModel)]="specialite._idSpec" name="idSpec" placeholder="ID Specialité"></td>
+            </tr>
+            <tr><button type="submit">Ajouter</button></tr>
+        </table>
+</form>
+  

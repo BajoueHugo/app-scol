@@ -1,0 +1,53 @@
+#etudiant1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#etudiant1 app-etudiant{
+    width:70%;
+}
+#etudiant1 app-specialite{
+    width: 30%;
+}
+
+#etudiant2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#etudiant2 app-etudiant-paris{
+    width:50%;
+}
+#etudiant2 app-etudiant-hors-paris{
+    width: 50%;
+}
+
+#etudiant3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#etudiant3 app-form-etudiant{
+    width:50%;
+}
+#etudiant3 app-form-specialite{
+    width: 50%;
+}
+app-form-etudiant,app-form-specialite table{
+    width: 100%;
+    text-align: left;
+    border: solid 2px antiquewhite;
+    border-collapse: collapse;
+}
+app-form-etudiant,app-form-specialite th {
+    text-align: left;
+}
+app-form-etudiant,app-form-specialite{
+    margin: 2.5%;
+    padding: 2%;
+    background-color: rgba(245, 245, 220, 0.24);
+    box-shadow: rgba(130, 92, 43, 0.352) 3px 5px 7px;
+}
